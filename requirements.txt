@@ -1,0 +1,14 @@
+# Dependencies
+nltk
+spaCy
+scikit-learn
+transformers
+torch
+git+https://github.com/openai/swarm.git
+
+# SpaCy Model
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
+
+flask # for the API
+
+gunicorn # for deploying in heroku
